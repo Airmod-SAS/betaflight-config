@@ -1,3 +1,4 @@
+
 /*
  * This file is part of Betaflight.
  *
@@ -106,11 +107,11 @@
 #define CAMERA_CONTROL_PIN PB14
 
 #define TIMER_PIN_MAPPING \
-    TIMER_PIN_MAP( 0, MOTOR1_PIN,           1,  0) \
-    TIMER_PIN_MAP( 1, MOTOR2_PIN,           1,  0) \
-    TIMER_PIN_MAP( 2, MOTOR3_PIN,           1,  0) \
-    TIMER_PIN_MAP( 3, MOTOR4_PIN,           1,  0) \
-    TIMER_PIN_MAP( 4, MOTOR5_PIN,           1,  0) \
+    TIMER_PIN_MAP( 0, MOTOR1_PIN,           2,  0) \
+    TIMER_PIN_MAP( 1, MOTOR2_PIN,           2,  0) \
+    TIMER_PIN_MAP( 2, MOTOR3_PIN,           2,  0) \
+    TIMER_PIN_MAP( 3, MOTOR4_PIN,           2,  0) \
+    TIMER_PIN_MAP( 4, MOTOR5_PIN,           2,  0) \
     TIMER_PIN_MAP( 5, MOTOR6_PIN,           1,  0) \
     TIMER_PIN_MAP( 6, MOTOR7_PIN,           1,  0) \
     TIMER_PIN_MAP( 7, MOTOR8_PIN,           1,  0) \
