@@ -74,8 +74,8 @@
 #define UART6_RX_PIN PC7
 
 // I2C pins
-#define I2C1_SCL_PIN PC9
-#define I2C1_SDA_PIN PA8
+#define I2C3_SCL_PIN PA8
+#define I2C3_SDA_PIN PC9
 
 // SPI pins
 #define SPI1_SCK_PIN PA5
@@ -122,8 +122,8 @@
 
 #define ADC1_DMA_OPT 0
 
-#define MAG_I2C_INSTANCE                I2CDEV_1
-#define BARO_I2C_INSTANCE               I2CDEV_1
+#define MAG_I2C_INSTANCE                I2CDEV_3
+#define BARO_I2C_INSTANCE               I2CDEV_3
 #define DEFAULT_BARO_I2C_ADDRESS        119
 #define DEFAULT_BLACKBOX_DEVICE         BLACKBOX_DEVICE_NONE
 #define DEFAULT_DSHOT_BURST             DSHOT_DMAR_OFF
@@ -140,7 +140,7 @@
 #define SDCARD_SPI_INSTANCE             SPI3
 #define SYSTEM_HSE_MHZ                  8
 #define MAX7456_SPI_INSTANCE            SPI2
-#define DASHBOARD_I2C_INSTANCE          I2CDEV_1
+#define DASHBOARD_I2C_INSTANCE          I2CDEV_3
 #define PINIO1_CONFIG                   129
 #define PINIO1_BOX                      0
 #define GYRO_1_SPI_INSTANCE             SPI1
