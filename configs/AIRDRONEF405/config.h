@@ -75,6 +75,9 @@
 // I2C pins
 #define I2C1_SCL_PIN PB8
 #define I2C1_SDA_PIN PB9
+// Set I2C clock speed at the officially rated 400kHz Fast Mode
+// (the 800kHz default is unguarded and silently runs the bus out of spec).
+#define I2C1_CLOCKSPEED 400
 
 // SPI pins
 #define SPI1_SCK_PIN PA5
