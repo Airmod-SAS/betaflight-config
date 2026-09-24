@@ -76,6 +76,8 @@
 // I2C pins
 #define I2C3_SCL_PIN PA8
 #define I2C3_SDA_PIN PC9
+// Set I2C clock speed at 400kHz until we setup FastMode Plus
+#define I2C3_CLOCKSPEED 400
 
 // SPI pins
 #define SPI1_SCK_PIN PA5
